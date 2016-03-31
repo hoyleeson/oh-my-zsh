@@ -9,8 +9,8 @@
 HOY_VCS_PROMPT_PREFIX1=" %{$fg[white]%}(%{$reset_color%}"
 HOY_VCS_PROMPT_PREFIX2=":%{$fg[white]%}"
 HOY_VCS_PROMPT_SUFFIX="%{$reset_color%})"
-HOY_VCS_PROMPT_DIRTY="%{$fg[red]%}x"
-HOY_VCS_PROMPT_CLEAN="%{$fg[green]%}o"
+HOY_VCS_PROMPT_DIRTY="%{$fg[red]%}*"
+HOY_VCS_PROMPT_CLEAN="%{$fg[green]%}*"
 
 # Git info
 local git_info='$(git_prompt_info)'
